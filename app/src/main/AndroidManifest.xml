@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TVSRIDESCAN"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="portrait"
+            android:exported="true"/>
+        <!-- // <activity android:name=".SplashScreen"/> -->
+        <!-- Configuration -->
+        <activity
+            android:name=".Configuration.ValvcisnoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Configuration.GetUserDetails"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Configuration.ChangePassword"
+            android:screenOrientation="portrait" />
+
+        <!-- Connection -->
+        <activity
+            android:name=".connection.LoginActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".SelectVehicle"
+            android:screenOrientation="portrait"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <!-- Main Tree -->
+        <activity
+            android:name=".StartDiagnosis"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ems.EmsMenu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".abs.ABSMenu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".icu.ClusterMenu"
+            android:screenOrientation="portrait" />
+
+        <!-- ems -->
+        <activity
+            android:name=".ems.EMSLiveParameters"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ems.EmsDtcs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ems.EMSWriteDIDs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ems.ReadECUDataCat"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ems.EMSReadDIDs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ems.FilePicker"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ems.ECUFlashing"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ems.EMSIOControl"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ems.EmsGraphView"
+            android:screenOrientation="landscape" />
+
+        <!-- abs -->
+        <activity
+            android:name=".abs.ABSLiveParameters"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".abs.ABSDtcs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".abs.ABSReadDIDs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".abs.ABSWriteDID"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".abs.ABSIOControl"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".abs.ABSRoutinecontrol"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dtcsnapshot.DtcSnapshotEx"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dtcsnapshot.DtcSnapshot"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".abs.ABSGraphView"
+            android:screenOrientation="landscape" />
+
+        <!-- icu -->
+        <activity
+            android:name=".icu.ClusterLiveParameters"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".icu.ClusterDtcs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".icu.ClusterReadDIDs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".icu.ClusterWriteDIDs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".icu.ClusterIOControl"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".icu.ClusterRoutineControl"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".icu.ClusterGraphView"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".connection.ConnectionInterrupt"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PDIActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LiveParameterCat"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LiveSelectParams"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SecureAccess"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KwpABS.KwpAbsMenu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KwpABS.KwpAbsDtcs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KwpABS.KwpAbsLp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KwpABS.KwpAbsIOcontrol"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KwpABS.KwpAbsWrite"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KwpABS.KwpAbsRoutinecontrol"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".rtr2004v2chefi.RTR2004vchefi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".rtr1604v1chefi.RTR1604v1chefiMenu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".rtr2004v1chefi.RTR2004v1chefiMenu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".rtr1602v_1ch.RTR1602v1chMenu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".rtr1602v_1ch.RTR1602v1chLiveParams"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".rtr1602v_1ch.RTR1602v1chWriteParam"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".rtr1602v_1ch.RTR1602v1chEcuParams"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".rtr1602v_1ch.RTR1602v1chRoutine"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".rtr1602v_1ch.RTR1602v1chDtc"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UpdateUtilityPack.UpdateUtility"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Configuration.ChooseLangActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".connection.PairedDevices"
+            android:screenOrientation="portrait" />
+
+
+        <!-- <activity android:name=".Samp"></activity> -->
+        <activity android:name=".rtr2004v2chefi.LiveParams"></activity>
+    </application>
+
+</manifest>

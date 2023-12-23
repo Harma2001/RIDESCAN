@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/colorblk"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/worldmapbg"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll1"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:paddingBottom="10dp"
+            android:layout_weight="1"
+            android:id="@+id/linearLayout7">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/ic_flash"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/emsflash"
+                android:gravity="center_horizontal|center_vertical"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorwhite"/>
+
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="end"
+            android:layout_weight="1"
+            android:src="@drawable/ic_tvs_race1" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rr"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ll1"
+        android:visibility="invisible">
+
+        <LinearLayout
+            android:id="@+id/ll2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/bg_transparent"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:text="File Name "
+                    android:textColor="@color/colorwhite"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/colorAccent" />
+
+                <TextView
+                    android:id="@+id/fn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:text="MSE2_TV11_0060_00_C.HEX"
+                    android:textColor="@color/colorwhite"
+                    android:textSize="25dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:text="VIN "
+                    android:textColor="@color/colorwhite"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/colorAccent" />
+
+                <TextView
+                    android:id="@+id/vin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:text="12345678912345678"
+                    android:textColor="@color/colorwhite"
+                    android:textSize="25dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:text="ECU Name "
+                    android:textColor="@color/colorwhite"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/colorAccent" />
+
+                <TextView
+                    android:id="@+id/ecuname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:text="EMS"
+                    android:textColor="@color/colorwhite"
+                    android:textSize="25dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:id="@+id/batterylayout"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:text="Battery Voltage "
+                    android:textColor="@color/colorwhite"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/colorAccent" />
+
+                <TextView
+                    android:id="@+id/bat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:text="0 V"
+                    android:textColor="@color/colorwhite"
+                    android:textSize="25dp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/reflash"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:background="@drawable/black_rec"
+                android:gravity="center_horizontal"
+                android:padding="5dp"
+                android:text="Start Flashing"
+                android:textColor="@color/colorwhite"
+                android:textSize="30dp"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+        <com.example.tvsridescan.Progressbar.CircleProgressView
+            android:id="@+id/cp"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_below="@+id/ll2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="97dp"
+            app:cpv_autoTextSize="true"
+            app:cpv_barColor="@color/coloramb"
+            app:cpv_barWidth="35dp"
+            app:cpv_innerContourSize="1dp"
+            app:cpv_maxValue="100"
+            app:cpv_outerContourSize="1dp"
+            app:cpv_rimColor="@color/colorbg"
+            app:cpv_rimWidth="35dp"
+            app:cpv_seekMode="false"
+            app:cpv_showUnit="true"
+            app:cpv_spinColor="@color/colorwhite"
+            app:cpv_textColor="@color/colorAccent"
+            app:cpv_textScale="1"
+            app:cpv_textSize="10dp"
+            app:cpv_unit="%"
+            app:cpv_unitColor="@color/colorAccent"
+            app:cpv_unitPosition="right_bottom"
+            app:cpv_unitScale="1"
+            app:cpv_unitSize="10dp"
+            app:cpv_value="0" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@color/colorAccent"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:visibility="visible">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:padding="5dp"
+                android:src="@drawable/timer" />
+
+            <TextView
+                android:id="@+id/dur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="00:00"
+                android:textColor="@android:color/white"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/pb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <ProgressBar
+            style="?android:attr/progressBarStyle"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/reflash"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="19dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:id="@+id/tvper"
+            android:textColor="@color/colorwhite"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+</RelativeLayout>

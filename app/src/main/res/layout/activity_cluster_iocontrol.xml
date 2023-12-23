@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.tvsridescan.icu.SampleActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/linearLayout7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:alpha="0.9"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/ic_iocontrol" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/icuiocontrol"
+                android:gravity="center_horizontal|center_vertical"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorwhite"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="end"
+            android:layout_weight="1"
+            android:src="@drawable/ic_tvs_race1" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/bikeview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="150dp"
+        android:src="@mipmap/tpvwwht" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton1"
+        android:layout_width="110dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/bikeview"
+        android:layout_gravity="left"
+        android:background="@drawable/leftind"
+        android:fontFamily="serif"
+        android:textColor="@color/colorwhite"
+        android:textOff=""
+        android:textOn=""
+        android:alpha="0.2"
+        android:layout_marginLeft="50dp"
+        android:textSize="18dp" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton2"
+        android:layout_width="110dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/bikeview"
+        android:layout_gravity="right"
+        android:background="@drawable/rightind"
+        android:fontFamily="serif"
+        android:textColor="@color/colorwhite"
+        android:textOff=""
+        android:textOn=""
+        android:alpha="0.2"
+        android:layout_marginRight="50dp"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toggleButton1"
+        android:layout_marginLeft="31dp"
+        android:layout_marginStart="31dp"
+        android:text="@string/leftindicator"
+        android:textColor="@color/colorwhite"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/toggleButton2"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:text="@string/rightindicator"
+        android:textColor="@color/colorwhite"
+        android:textSize="25dp" />
+
+
+</RelativeLayout>

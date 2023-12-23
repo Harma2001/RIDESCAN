@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="220dp"
+        android:layout_height="180dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_tvs_race1" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/worldmapbg"/>
+
+    <RelativeLayout
+        android:id="@+id/manual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorwhite"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:text="@string/SELECT_A_BIKE"/>
+            </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="30dp"
+                android:id="@+id/recycler_newProd"/>
+
+            <!-- <Button
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/rr310"
+                 android:text="@string/apacherr310"
+                 android:textColor="@color/colorwhite"
+                 android:textSize="22sp"
+                 android:layout_margin="0.7dp"
+                 android:textStyle="bold"
+                 android:background="@drawable/bg_transparent"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rtr2004v2chcarb"
+                android:text="@string/rtr2004v2chcarb"
+                android:textColor="@color/colorwhite"
+                android:textSize="22sp"
+                android:layout_margin="0.7dp"
+                android:textStyle="bold"
+                android:background="@drawable/bg_transparent"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rtr2004v2chefi"
+                android:text="@string/rtr2004v2chefi"
+                android:textColor="@color/colorwhite"
+                android:textSize="22sp"
+                android:layout_margin="0.7dp"
+                android:textStyle="bold"
+                android:background="@drawable/bg_transparent"/>
+
+            <Button
+                android:id="@+id/rtr1604v1chcarb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="0.7dp"
+                android:background="@drawable/bg_transparent"
+                android:text="@string/rtr1604v1chcarb"
+                android:textColor="@color/colorwhite"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/rtr1604v1chefi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="0.7dp"
+                android:background="@drawable/bg_transparent"
+                android:text="@string/rtr1604v1chefi"
+                android:textColor="@color/colorwhite"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/rtr1802v1ch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="0.5dp"
+                android:background="@drawable/bg_transparent"
+                android:text="@string/rtr1802v1ch"
+                android:textColor="@color/colorwhite"
+                android:textSize="22sp"
+                android:visibility="gone"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/rtr1602v1ch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="0.5dp"
+                android:background="@drawable/bg_transparent"
+                android:text="@string/rtr1602v1ch"
+                android:textColor="@color/colorwhite"
+                android:textSize="22sp"
+                android:visibility="gone"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/rtr2004v1chcarb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="0.5dp"
+                android:background="@drawable/bg_transparent"
+                android:text="@string/rtr2004v1chcarb"
+                android:textColor="@color/colorwhite"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/rtr2004v1chefi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="0.5dp"
+                android:background="@drawable/bg_transparent"
+                android:text="@string/rtr2004v1chefi"
+                android:textColor="@color/colorwhite"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+-->
+            <ru.tinkoff.scrollingpagerindicator.ScrollingPagerIndicator
+                android:id="@+id/indicator"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

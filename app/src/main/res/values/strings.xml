@@ -1,0 +1,222 @@
+<resources>
+    <string name="app_name">TVS RIDESCAN</string>
+    <string name="forgotpass"><u>Forgot Password ?</u></string>
+    <string name="update"><u>Update Account</u></string>
+    <string name="version"> Version : 25\n 14/2/2019</string>
+    <string name="version2"> Version : 25 BETA</string>
+    <string name="TESTSTAM_DEFAULT" translatable="false">768</string>
+    <string name="liveparam">LIVE PARAMETERS</string>
+    <string name="readdtcs">READ\nDTC\'S</string>
+    <string name="abs">ANTI-LOCK BRAKING SYSTEM</string>
+    <string name="absdtcs" translatable="false">ABS DTCS</string>
+    <string name="SELECT_A_BIKE">select a vehicle</string>
+    <string name="apacherr310" translatable="false">APACHE RR310</string>
+    <string name="apachertr2004vfi" translatable="false"> RTR 200FI 4V</string>
+    <string name="apachertr160" translatable="false"> RTR 160 FI</string>
+    <string name="invalidemail">Invalid Email Address</string>
+    <string name="RIDESCAN" translatable="false">RIDESCAN</string>
+    <string name="login">LOGIN</string>
+    <string name="welcome">Welcome</string>
+    <string name="iocontrol">IO\nControl</string>
+    <string name="enginemanagsys">ENGINE MANAGEMENT SYSTEM</string>
+    <string name="writeecudata">WRITE\nECU DATA</string>
+    <string name="apacheadvabs" translatable="false">APACHE ADVANCED ABS</string>
+    <string name="enterregisteredemail">Enter registered email</string>
+    <string name="routinecontrol">ROUTINE\nCONTROL</string>
+    <string name="icu">INSTRUMENT CLUSTER</string>
+    <string name="writeservicedata">WRITE\nSERVICE DATA</string>
+    <string name="modules">MODULES</string>
+    <string name="graphview">GRAPHVIEW</string>
+    <string name="emsliveparam">EMS LIVE PARAMETERS</string>
+    <string name="active">ACTIVE</string>
+    <string name="present">PRESENT</string>
+    <string name="pending">PENDING</string>
+    <string name="confirmed">CONFIRMED</string>
+    <string name="history">HISTORY</string>
+    <string name="emswriteecudata">EMS WRITE ECU DATA</string>
+    <string name="absliveparams">ABS LIVE PARAMETERS</string>
+    <string name="iculiveparams">ICU LIVE PARAMETERS</string>
+    <string name="absroutinecontrol">ABS ROUTINE CONTROL</string>
+    <string name="abswriteservicedata">ABS WRITE SERVICE DATA</string>
+    <string name="securedaccess">SECURED ACCESS</string>
+    <string name="icuwriteecudata">ICU WRITE SERVICE DATA</string>
+    <string name="icuroutinecontrol">ICU ROUTINE CONTROL</string>
+    <string name="apachertr180abs" translatable="false"> RTR 180 2v ABS</string>
+    <string name="menu" translatable="false">MENU</string>
+    <string name="emsflash" translatable="false">EMS FLASH</string>
+    <string name="apachertr1604vkwp" translatable="false"> RTR 160 4V</string>
+    <string name="apachertr1602v" translatable="false"> RTR 160 2V</string>
+    <string name="apache2004v" translatable="false"> RTR 2004V</string>
+    <string name="apache1602v" translatable="false"> RTR 160 2V</string>
+    <string name="apache180abs" translatable="false"> RTR 180 ABS</string>
+    <string name="apache1604v" translatable="false"> RTR 160 4V</string>
+    <string name="dealerid">DEALER ID</string>
+    <string name="total_Services">TOTAL NUMBER\n OF SERVICES</string>
+    <string name="TestStamp">TESTSTAMP</string>
+    <string name="fulepumprelay">FUEL PUMP RELAY</string>
+    <string name="mil">MIL</string>
+    <string name="upstreamlambda">UPSTREAM\nLAMBDA HEATER</string>
+    <string name="actuatefanrelay">ACTUATE\nFAN RELAY</string>
+    <string name="actuatesecondarynairsolenoid">ACTUATE SECONDARY\n AIR SOLENOID</string>
+    <string name="actuatewarninglamp">ACTUATE\n WARNING LAMP</string>
+    <string name="actuatehighenginetemperature">ACTUATE HIGH \nENGINE TEMP</string>
+    <string name="Actuatestarterrelay">ACTUATE\nSTARTER RELAY</string>
+    <string name="servicedstance">SERVICE\nDISTANCE</string>
+    <string name="servicedate">SERVICE\nDATE</string>
+    <string name="timendate"><![CDATA[TIME & DATE]]></string>
+    <string name="inletvfON">INLET VALVE\nFRONT</string>
+    <string name="inletvfOFF">INLET VALVE\nFRONT</string>
+    <string name="off">OFF</string>
+    <string name="on">ON</string>
+    <string name="pump">PUMP</string>
+    <string name="outletvfront">OUTLET VALVE\nFRONT</string>
+    <string name="lamp">LAMP</string>
+    <string name="lampblink">LAMP\nBLINK</string>
+    <string name="wheelspeedsensortest">WHEEL SPEED\nSENSOR TEST</string>
+    <string name="startevacfill">START EVACUATION\nAND FILL</string>
+    <string name="startrepairfill">START REPAIR\nFLLING</string>
+    <string name="resultrepairfill">RESULT REPAIR FILLING</string>
+    <string name="resultevacandfill">RESULT EVACUATION\n AND FILL</string>
+    <string name="stopevacandfill">STOP EVACUATION\n AND FILL</string>
+    <string name="stoprepairandfill">STOP REPAIR\nFILLING</string>
+    <string name="writefillndbleedresult"><![CDATA[FILL &\nBLEED RESULT]]></string>
+    <string name="write">WRITE</string>
+    <string name="dateoffillndbleed"><![CDATA[DATE OF FILL\n& BLEED PROCESS]]></string>
+    <string name="vin">VIN</string>
+    <string name="vehiclecode">VEHICLE CODE</string>
+    <string name="resetmu">RESET MU\n JUMP COUNTER</string>
+    <string name="proddate">PRODUCTION DATE</string>
+    <!--
+    <string name="rtr2004vfi">RTR 200 4V_2CH- CARB</string>
+-->
+    <string name="rtr2004v2chcarb" translatable="false">RTR 200 4v_2CH-CARB</string>
+    <string name="rtr2004v2chefi" translatable="false">RTR 200 4v_2CH-EFI</string>
+    <string name="rtr1604v1chcarb" translatable="false">RTR 160 4v_1CH-CARB</string>
+    <string name="rtr1604v1chefi" translatable="false">RTR 160 4v_1Ch-EFI</string>
+    <string name="rtr1802v1ch" translatable="false">RTR 180 2v_1CH</string>
+    <string name="rtr1602v1ch" translatable="false">RTR 160 2v_1CH</string>
+    <string name="rtr2004v1chcarb" translatable="false">RR 200 4v_1CH-CARB</string>
+    <string name="rtr2004v1chefi" translatable="false">RTR 200 4v_1CH-EFI</string>
+    <string name="ecunotresponding">ECU not responding</string>
+    <string name="improperresponse">Improper response</string>
+    <string name="unabletoprocess">Unable to process !</string>
+    <string name="ecuid">ECU ID</string>
+    <string name="clusterconfig">CLUSTER\nCONFIGURATION</string>
+    <string name="mujumpcounter">MU\nJUMP COUNTER</string>
+    <string name="processdata">PROCESS\nDATA</string>
+    <string name="abscuparams">ABS ECU PARAMETERS</string>
+    <string name="startrepairebleed">START REPAIR\nBLEED</string>
+    <string name="stoprepairbleed">STOP REPAIR\nBLEED</string>
+    <string name="abssilalamp">ABS SILA\nLAMP BLINK</string>
+    <string name="actuatortest">ACTUATOR\nTEST</string>
+    <string name="unabletoconnect">Unable to connect!</string>
+    <string name="unabletoconnect2"><![CDATA[Unable to connect,reinsert VCI \n & try again!]]></string>
+    <string name="interntUnavail">Internet Unavailable !</string>
+    <string name="updateutils" translatable="false">Update\nutilities</string>
+    <string name="submit">SUBMIT</string>
+    <string name="download" translatable="false">Download</string>
+    <string name="firmwareupdate" translatable="false"> FIRMWARE UPDATE</string>
+    <string name="bootloaderapp" translatable="false"> BOOTLOADER APP</string>
+    <string name="confingapp" translatable="false"> CONFIGURATION APP</string>
+    <string name="completed" translatable="false">Completed</string>
+    <string name="start" translatable="false">Download</string>
+    <string name="otperr">OTP must be 6 digits!</string>
+    <string name="settings" translatable="false">App\nSettings</string>
+    <string name="extras" translatable="false">Extras</string>
+    <string name="changelang">Language</string>
+    <string name="chooseanylang">Select any language</string>
+    <string name="confirm">Confirm</string>
+    <string name="enterpassword">Enter password</string>
+    <string name="sessiontimeout" translatable="false">Session Timeout !</string>
+    <string name="disconnectedfromvci">Disconnected from VCI</string>
+    <string name="reconnect">Reconnect</string>
+    <string name="exit">Exit</string>
+    <string name="getdetails">Get Details</string>
+    <string name="vciserilanumber">VCI Serial Number</string>
+    <string name="expirydate">Expiry Date</string>
+    <string name="cancel">Cancel</string>
+    <string name="checkingdetails">Checking details..</string>
+    <string name="verifyingemail">Verifying email ID..</string>
+    <string name="enterotp">Enter OTP</string>
+    <string name="enternewpin">Enter new PIN</string>
+    <string name="confirmpin">Confirm PIN</string>
+    <string name="resendotp">RESEND OTP</string>
+    <string name="otphasbeensent">OTP has been sent  to\n</string>
+    <string name="pleaseenterfulldetails">Please enter full details</string>
+    <string name="pwddidntmatch">Password didn\'t match!</string>
+    <string name="otphasbeensenttyourmail">OTP has been sent to your mail</string>
+    <string name="success">success</string>
+    <string name="poweredby">Powered by</string>
+    <string name="tooldisabled">Tool Disabled, Please Connect to Internet</string>
+    <string name="pleaseclickbackagain">Please click BACK again to exit</string>
+    <string name="devexpiredcontactmahle">Device Expired,Please contact MAHLE for Support</string>
+    <string name="pleaseselectvci">Please select VCI</string>
+    <string name="vcinotfound">VCI not found !</string>
+    <string name="pleasewait">Please wait..</string>
+    <string name="unabletovalidatevci">Unable to validate VCI,Retry</string>
+    <string name="vcinotrespondingtryagain">VCI not responding,try again</string>
+    <string name="somethingwntwronreinsrtvci">Something went wrong,reinsert VCI</string>
+    <string name="connected">Connected</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="selecedparamis">Selected parameter </string>
+    <string name="pleaseselectonly4params"><![CDATA[Please select any four parameters & submit]]></string>
+    <string name="removed">Removed </string>
+    <string name="emsreaddtcs">EMS READ DTC\'s</string>
+
+    <string name="cleardtc">Clear DTC\'s</string>
+    <string name="dtccleared">DTC\'s Cleared</string>
+    <string name="pleasewaitreadingdtcs">Please wait Reading DTC\'s</string>
+    <string name="search">Search</string>
+    <string name="shortdescrip">Short Description</string>
+    <string name="enterdtcnumber">Enter DTC number</string>
+    <string name="areyousuretocleardtc">Are you sure to clear DTC\'s ?</string>
+    <string name="keep">keep</string>
+    <string name="delete">clear</string>
+    <string name="status">status</string>
+    <string name="entr5to10ofdealer">Enter  5\-10 digits of Dealer ID</string>
+    <string name="entr1digit">Enter 1 digit number</string>
+    <string name="entrtestmpvalue">Enter teststamp with in the range (0\-65535)</string>
+    <string name="processing">Processing</string>
+    <string name="negativeresponse">Negative response</string>
+    <string name="exhaust">EXHAUST</string>
+    <string name="intake">INTAKE</string>
+    <string name="sensorsandswitchs"><![CDATA[Sensors,Switches]]></string>
+    <string name="obd">OBD</string>
+    <string name="currentstatus">CURRENT STATUS</string>
+    <string name="cranking">CRANKING</string>
+    <string name="fuelingand"><![CDATA[Fueling & Ignition]]></string>
+    <string name="cmdincorrect">Command incorrect</string>
+    <string name="emsiocontrol">EMS IO Control</string>
+    <string name="absiocontrol">ABS IO CONTROL</string>
+    <string name="startwheelspeedtest">Start wheel speed test</string>
+    <string name="stopwheelspeedtest">Stop wheel speed test</string>
+    <string name="initializevariantcoding">Initialize variant coding</string>
+    <string name="absreaddtcs">ABS READ DTC\'s</string>
+    <string name="somethingnotright">Something went wrong</string>
+    <string name="entervalfrom05000km">Enter value from 0\-50000km</string>
+    <string name="entervaldateddmmddd">Enter service date EX.DDMMYYYY</string>
+    <string name="entrvalutimeicudate"><![CDATA[Enter Time & Date Ex. hhmmssDDMMYYYY]]></string>
+    <string name="startselftest">Start Self test</string>
+    <string name="stopselftest">Stop Self test</string>
+    <string name="icureaddtcs">ICU  READ DTC\'s</string>
+    <string name="icuiocontrol">ICU IO Control</string>
+    <string name="leftindicator">Left Indicator</string>
+    <string name="rightindicator">Right Indicator</string>
+    <string name="inletvalvefront">INLET VALVE FRONT</string>
+    <string name="outletvalvefront">OUTLET VALVE FRONT</string>
+    <string name="outletvalverear">OUTLET VALVE REAR</string>
+    <string name="inletvalverear">INLET VALVE REAR</string>
+    <string name="enter17digits">ENTER 17 Characters</string>
+    <string name="enter12digits">ENTER 12 Characters</string>
+    <string name="dtc">DTC</string>
+    <string name="enter0to1">Enter 0 or 1</string>
+    <string name="enter0to65535">\"Enter 0 to 65535\"</string>
+    <string name="enter0to255">Enter 0 to 255</string>
+    <string name="reset">RESET</string>
+
+    <string-array name="language_option">
+        <item>English</item>
+        <item>Hindi</item>
+    </string-array>
+</resources>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgblur"
+    tools:context="com.example.tvsridescan.ems.ReadECUDataCat">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll1"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:alpha="0.9"
+            android:layout_gravity="center_vertical"
+            android:paddingBottom="10dp"
+            android:layout_weight="1"
+            android:id="@+id/linearLayout7">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/ic_readdid"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EMS Read ECU Data"
+                android:gravity="center_horizontal|center_vertical"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorwhite"/>
+
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="300dp"
+            android:layout_height="130dp"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="end"
+            android:layout_weight="1"
+            android:src="@drawable/ic_tvs_race1" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/eng_his"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textColor="@color/colorwhite"
+        android:background="@drawable/black_rec"
+        android:text="Engine History"
+        android:textSize="25dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/black_rec"
+        android:textSize="25dp"
+        android:layout_margin="5dp"
+        android:textColor="@color/colorwhite"
+        android:id="@+id/obd"
+        android:text="OBD "/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/black_rec"
+        android:textSize="25dp"
+        android:layout_margin="5dp"
+        android:textColor="@color/colorwhite"
+        android:id="@+id/ecu_id"
+        android:text="ECU Identification"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorwhite"
+        android:textSize="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center_horizontal"
+        android:text="Engine Components"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/colorwhite" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/black_rec"
+        android:textSize="25dp"
+        android:layout_margin="5dp"
+        android:textColor="@color/colorwhite"
+        android:id="@+id/curr_status"
+        android:text="Current Status"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/black_rec"
+        android:textSize="25dp"
+        android:layout_margin="5dp"
+        android:textColor="@color/colorwhite"
+        android:id="@+id/cranking"
+        android:text="Cranking"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/black_rec"
+        android:textSize="25dp"
+        android:layout_margin="5dp"
+        android:textColor="@color/colorwhite"
+        android:id="@+id/intake"
+        android:text="Intake"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/black_rec"
+        android:textSize="25dp"
+        android:layout_margin="5dp"
+        android:textColor="@color/colorwhite"
+        android:id="@+id/fuel_ignition"
+        android:text="Fueling and Ignition"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/black_rec"
+        android:textSize="25dp"
+        android:layout_margin="5dp"
+        android:textColor="@color/colorwhite"
+        android:id="@+id/exhuast_system"
+        android:text="Exhaust System"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/black_rec"
+        android:textSize="25dp"
+        android:layout_margin="5dp"
+        android:textColor="@color/colorwhite"
+        android:id="@+id/sensor_switch"
+        android:text="Sensors and Switches"/>
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:paddingBottom="10dp"
+            android:layout_weight="1"
+            android:id="@+id/linearLayout7">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/ic_routinecontrol"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/absroutinecontrol"
+                android:gravity="center_horizontal|center_vertical"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorwhite"/>
+
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="end"
+            android:layout_weight="1"
+            android:src="@drawable/ic_tvs_race1" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/bikeview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="150dp"
+        android:src="@mipmap/rrtopview" />
+
+   <!-- <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/button_round_dual"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_onoffwhite"/>
+    </LinearLayout>
+-->
+    <ToggleButton
+        android:id="@+id/toggleButton1"
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="58dp"
+        android:background="@drawable/black_rec"
+        android:textOff="@string/startwheelspeedtest"
+        android:textOn="@string/stopwheelspeedtest"
+        android:textSize="25dp"
+        android:textColor="@color/colorwhite"/>
+
+</RelativeLayout>

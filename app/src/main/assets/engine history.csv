@@ -1,0 +1,10 @@
+Kilometer run counter,0100,0,4,1*A,km,1
+Total engine run hour counter,0120,0,4,1*A,min,1
+Total no of DTC till date,1015,0,4,A,NA,1
+Total no of vehicle services,1016,0,1,A,NA,1
+No of hours speed is greater than 100 and lesser than 50km,1018,0,4,A,min,1
+No of unsuccessful cranking,101C,0,2,A,NA,1
+No of low battery voltages,101B,0,2,A,NA,0
+No of times & time for which engine was over revved,1021,2,8,A,NA,1
+Avg fuel consumption in last 5 - key ON to key OFF cycles,011D,0,2,0.1*A,km/l,0
+Avg vehicle speed for last 5 - key ON to key OFF cycles,011E,0,1,1.25*A,km/hr,0

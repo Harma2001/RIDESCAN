@@ -1,0 +1,4 @@
+Battery voltage,0106,0,1,0.1*A,V,0
+Engine temperature,0102,0,2,(0.1*A)-273.14,°C,0
+Engine status ,1002,7,1,A,NA,1
+Vehicle speed,0108,0,2,0.01*A,km/h,0

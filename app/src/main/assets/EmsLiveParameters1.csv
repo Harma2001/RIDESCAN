@@ -1,0 +1,42 @@
+Kilometer run counter,0100,0,4,1*A,km,1
+Engine speed,0101,0,2,0.5*A,rpm,0
+Engine temperature,0102,0,2,(0.1*A)-273.14,°C,0
+Intake air temperature,0103,0,2,(0.1*A)-273.14,°C,0
+Air mass Flow,0104,0,2,0.1*A,kg/h,0
+Ignition angle output,0105,1,1,0.75*A,Grad KW,0
+Battery voltage,0106,0,1,0.1*A,V,0
+Vehicle speed,0108,0,2,0.01*A,km/h,0
+o/p voltage sensor upstream catalyst,0109,0,1,0.005*A,V,0
+Throttle position,010A,0,1,0.39215686*A,NA,1
+Engine load,010B,0,1,0.75*A,NA,0
+Ignition dwell time,010C,0,2,0.001*A,ms,0
+Canister valve duty cycle,010D,0,2,0.0015625*A,NA,0
+Lambda correction,010E,0,2,0.00003052*A,NA,0
+Lambda average correction,010F,0,2,0.00003052*A,NA,0
+Gear,0111,0,1,1*A,NA,1
+Map sensor voltage,0112,0,2,0.00488281*A,V,0
+Temperature inlet manifold voltage,0113,0,1,0.01953125*A,V,0
+Throttle voltage,0114,0,2,0.0012207*A,V,0
+Actual position of stepper motor(steps),0117,0,2,1*A,NA,1
+Lambda multiplicative adaption,0119,0,2,0.00003052*A,NA,0
+Lambda additive adaption,011A,1,2,0.046875*A,%,0
+Instantaneous fuel consumption,011B,0,2,0.1*A,km/l,0
+MAP,011C,0,2,0.0390625*A,hPa,0
+Total Engine run hour counter,0120,0,4,1*A,min,1
+Total number of combustion event counter in the given driving cycle,0121,0,4,1*A,num,1
+Total number of engine revolutions in the given driving cycle,0122,0,4,1*A,num,1
+Side stand sensor voltage,0123,0,2,0.00488281*A,V,0
+Ambient pressure,1009,0,2,(10/256)*A,hpa,0
+Idle air leakage adaptation value,100A,13,2,A/100,kg/h,1
+heater duty cycle,100C,0,1,1*A,%,1
+Target Idle speed,100F,0,1,A/10,1/min,1
+No of times and time for which engine was over revved,1021,2,8,A,NA,1
+Idling duration,1022,0,4,A,min,1
+RPM duration,1023,12,16,A,min,1
+Total no of DTC till date,1015,0,4,A,NA,1
+No of cranking,101A,0,2,A,NA,1
+No of unsuccessful cranking,101C,0,2,A,NA,1
+No of hours the engine temperature above TBD degree etc,101D,0,4,A,min,1
+No of kill switch actuation,101E,0,2,A,NA,1
+No of start switch actuation,101F,0,2,A,NA,1
+Current Gear sensor raw voltage value,102F,0,2,(5/1024)*A,V,0

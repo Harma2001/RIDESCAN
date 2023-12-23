@@ -1,0 +1,4 @@
+Fuel state,1008,11,1,A,NA,1
+Read secondary air valve status,1029,16,1,A,NA,1
+O2 heater status,100B,16,1,A,NA,0;
+O2 sensor voltage,0109,0,1,0.005*A,V,0

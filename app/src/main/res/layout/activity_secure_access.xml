@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.tvsridescan.SecureAccess">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/worldmapbg"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        android:id="@+id/rrmain">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:paddingBottom="10dp"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/ic_key"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/securedaccess"
+                android:gravity="center_horizontal|center_vertical"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorwhite"/>
+
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="end"
+            android:layout_weight="1"
+            android:src="@drawable/ic_tvs_race1" />
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/ll"
+    android:id="@+id/cat"
+    android:gravity="center"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ems"
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:background="@drawable/black_rec1"
+        android:gravity="center"
+        android:textColor="@color/colorwhite"
+         >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="45dp"
+            android:src="@drawable/ic_engine"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/abs"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@drawable/black_rec1"
+        android:textSize="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:padding="5dp"
+
+        android:textColor="@color/colorwhite"
+        android:text="ABS" >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="45dp"
+            android:src="@drawable/ic_abs"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/icu"
+        android:gravity="center"
+        android:layout_weight="1"
+
+        android:background="@drawable/black_rec1"
+        android:textSize="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/colorwhite"
+        android:padding="5dp"
+
+        android:text="ICU" >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="45dp"
+            android:src="@drawable/ic_cluster"/>
+    </LinearLayout>
+</LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/emsll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cat"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:gravity="center"
+                android:text="@string/enginemanagsys"
+                android:background="@drawable/bg_transparent"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/flashing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_transparent"
+                android:text="EMS Flash"
+                android:textColor="@color/colorwhite"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/vin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_transparent"
+                android:text="VIN"
+                android:textColor="@color/colorwhite"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/engine_run"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_transparent"
+                android:text="Engine Run Hour Counter"
+                android:textColor="@color/colorwhite"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/kilrun"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_transparent"
+                android:text="Kilometer Run Counter"
+                android:textColor="@color/colorwhite"
+                android:textSize="22sp"/>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cat"
+        android:id="@+id/absll"
+        android:visibility="gone"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="23sp"
+            android:background="@drawable/bg_transparent"
+            android:textColor="@color/colorAccent"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="@string/abs"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/servbleed"
+            android:layout_weight="1"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/bg_transparent"
+            android:textSize="22sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/colorwhite"
+            android:text="Service Bleeding" />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/icull"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cat"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/icu"
+                android:textSize="23sp"
+                android:background="@drawable/bg_transparent"
+                android:textColor="@color/colorAccent"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:textStyle="bold"
+               />
+            <Button
+                android:id="@+id/vinIcu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_transparent"
+                android:text="VIN"
+                android:textColor="@color/colorwhite"
+                android:textSize="22sp" />
+            <Button
+                android:id="@+id/odo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/bg_transparent"
+                android:text="Odometer Offset"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="1dp"
+                android:textColor="@color/colorwhite"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/odoval"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_transparent"
+                android:text="Odometer Value"
+                android:textColor="@color/colorwhite"
+                android:textSize="22sp" />
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/bg_transparent"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:layout_alignParentBottom="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorwhite"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:text="Selected secure access email ID "/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/coloramb"
+            android:layout_weight="1"
+            android:textStyle="italic"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"
+            android:id="@+id/sec_email"
+            android:padding="5dp"
+            android:text="XYZ123456@gmail.com"/>
+        </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/change"
+            android:layout_weight="2.8"
+            android:background="@drawable/basic_buttonblue"
+            android:textSize="18sp"
+            android:layout_margin="5dp"
+            android:textColor="@color/colorwhite"
+            android:text="Change" />
+    </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:id="@+id/lldwn"
+        android:visibility="invisible"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pb"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorwhite"
+            android:textSize="25sp"
+            android:gravity="center_horizontal"
+            android:text="Please Wait,Downloading File.."/>
+    </LinearLayout>
+</RelativeLayout>

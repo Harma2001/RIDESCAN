@@ -1,0 +1,28 @@
+0x480680,ABS disabled via DIA
+0x480703,Valve Failures
+0x480704,Internal Fault
+0x480705,Main Driver leakage
+0x480706,Hardware fault
+0x480707,MCU Failures
+0x480708,CAN_RAM_Check
+0x48070A,EEPROM anomaly suspicion
+0x48070E,Valve Activation invalid
+0x48070F,Release level
+0x48071A,Pump blocked
+0x48071B,Pump connection
+0x48071C,Pump supply
+0x480860,Voltage low
+0x480863,Voltage high
+0x480901,Sensor periodic fault front
+0x480902,Sensor double frequency check front
+0x480903,Sensor phase lenght supervision fault front
+0x480904,Sensor El.Fault front
+0x480905,Sensor Extrapolation Fault front
+0x480906,Sensor start recognition fault front
+0x480911,Sensor periodic fault rear
+0x480913,Sensor phase length Supevision fault rear
+0x480914,Sensor El.Fault rear
+0x480915,Sensor Extrapolation Fault rear
+0x480916,Sensor start recognition Fault rear
+0x480B2F,Coding error
+0xD3445F,CAN Bus off

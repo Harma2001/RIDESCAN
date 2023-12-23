@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorblk"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_centerVertical="true"
+
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Are you sure to Flash this File"
+            android:textSize="25dp"
+            android:layout_margin="20dp"
+            android:textColor="@color/colorwhite"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:id="@+id/submit1"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:textSize="20dp"
+                android:textColor="@color/colorwhite"
+                android:background="@drawable/black_rec"
+                android:text="NO"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:id="@+id/submit2"
+                android:textSize="20dp"
+                android:layout_margin="1dp"
+                android:textColor="@color/colorwhite"
+                android:background="@drawable/black_rec"
+                android:layout_weight="1"
+                android:text="YES"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

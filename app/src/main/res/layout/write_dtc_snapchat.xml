@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorblk"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_centerVertical="true"
+        android:padding="2dp"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="DTC Snapt Chat"
+            android:textSize="25dp"
+            android:layout_margin="20dp"
+            android:textColor="@color/colorwhite"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+                <Button
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/snap1"
+                    android:textSize="20dp"
+                    android:layout_margin="1dp"
+                    android:textColor="@color/colorblk"
+                    android:background="@drawable/button_click1"
+                    android:layout_weight="1"
+                    android:text="Snapchat Record"/>
+
+                <Button
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/snap2"
+                    android:textSize="20dp"
+                    android:layout_margin="1dp"
+                    android:textColor="@color/colorblk"
+                    android:background="@drawable/button_click1"
+                    android:layout_weight="1"
+                    android:text="Extended Record"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

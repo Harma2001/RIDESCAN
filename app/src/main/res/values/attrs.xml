@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleProgressView">
+        <!-- Text-->
+        <attr name="cpv_text" format="string" />
+        <attr name="cpv_unit" format="string" />
+        <attr name="cpv_textColor" format="color" />
+        <attr name="cpv_unitColor" format="color" />
+        <attr name="cpv_showUnit" format="boolean" />
+        <attr name="cpv_autoTextColor" format="boolean" />
+        <attr name="cpv_textTypeface" format="string" />
+        <attr name="cpv_unitTypeface" format="string" />
+        <attr name="cpv_decimalFormat" format="string" />
+
+        <!-- Text sizes-->
+        <attr name="cpv_textSize" format="dimension" />
+        <attr name="cpv_unitSize" format="dimension" />
+        <attr name="cpv_textScale" format="float" />
+        <attr name="cpv_unitScale" format="float" />
+        <attr name="cpv_unitToTextScale" format="float" />
+        <attr name="cpv_autoTextSize" format="boolean" />
+
+        <!-- Progress Bar -->
+        <attr name="cpv_direction" format="enum">
+            <enum name="CW" value="0" />
+            <enum name="CCW" value="1" />
+        </attr>
+        <attr name="cpv_value" format="float" />
+        <attr name="cpv_maxValue" format="float" />
+        <attr name="cpv_minValueAllowed" format="float" />
+        <attr name="cpv_maxValueAllowed" format="float" />
+        <attr name="cpv_barWidth" format="dimension" />
+        <attr name="cpv_barColor" format="color" />
+        <attr name="cpv_barColor1" format="color" />
+        <attr name="cpv_barColor2" format="color" />
+        <attr name="cpv_barColor3" format="color" />
+        <attr name="cpv_startAngle" format="integer" />
+        <attr name="cpv_barStrokeCap" format="enum">
+            <enum name="Butt" value="0" />
+            <enum name="Round" value="1" />
+            <enum name="Square" value="2" />
+        </attr>
+        <attr name="cpv_barStartEndLineWidth" format="dimension" />
+        <attr name="cpv_barStartEndLineSweep" format="float" />
+        <attr name="cpv_barStartEndLineColor" format="color" />
+        <attr name="cpv_barStartEndLine" format="enum">
+            <enum name="None" value="0" />
+            <enum name="Start" value="1" />
+            <enum name="End" value="2" />
+            <enum name="Both" value="3" />
+        </attr>
+
+        <!-- Spinner-->
+        <attr name="cpv_spin" format="boolean" />
+        <attr name="cpv_spinColor" format="color" />
+        <attr name="cpv_spinSpeed" format="float" />
+        <attr name="cpv_spinBarLength" format="float" />
+        <attr name="cpv_showTextInSpinningMode" format="boolean" />
+
+        <!-- Rim-->
+        <attr name="cpv_rimColor" format="color" />
+        <attr name="cpv_rimWidth" format="dimension" />
+
+        <!-- Outer Contour-->
+        <attr name="cpv_outerContourColor" format="color" />
+        <attr name="cpv_outerContourSize" format="dimension" />
+
+        <!-- Inner Contour-->
+        <attr name="cpv_innerContourColor" format="color" />
+        <attr name="cpv_innerContourSize" format="dimension" />
+
+        <!-- Background color-->
+        <attr name="cpv_fillColor" format="color" />
+
+        <!-- Seek mode-->
+        <attr name="cpv_seekMode" format="boolean" />
+
+        <!-- Block -->
+        <attr name="cpv_roundToBlock" format="boolean" />
+        <attr name="cpv_roundToWholeNumber" format="boolean" />
+        <attr name="cpv_blockScale" format="float" />
+        <attr name="cpv_blockCount" format="integer" />
+
+        <attr name="cpv_textMode" format="enum">
+            <enum name="Text" value="0" />
+            <enum name="Percent" value="1" />
+            <enum name="Value" value="2" />
+        </attr>
+
+        <attr name="cpv_unitPosition" format="enum">
+            <enum name="top" value="0" />
+            <enum name="bottom" value="1" />
+            <enum name="left_top" value="2" />
+            <enum name="right_top" value="3" />
+            <enum name="left_bottom" value="4" />
+            <enum name="right_bottom" value="5" />
+        </attr>
+
+    </declare-styleable>
+    <attr name="bootstrapBrand" format="enum">
+        <enum name="primary" value="0"/>
+        <enum name="success" value="1"/>
+        <enum name="info" value="2"/>
+        <enum name="warning" value="3"/>
+        <enum name="danger" value="4"/>
+        <enum name="regular" value="5"/>
+        <enum name="secondary" value="6"/>
+    </attr>
+
+    <attr name="buttonMode" format="enum">
+        <enum name="regular" value="0"/>
+        <enum name="toggle" value="1"/>
+        <enum name="checkbox" value="2"/>
+        <enum name="radio" value="3"/>
+    </attr>
+
+    <attr name="bootstrapSize" format="enum">
+        <enum name="xs" value="0"/>
+        <enum name="sm" value="1"/>
+        <enum name="md" value="2"/>
+        <enum name="lg" value="3"/>
+        <enum name="xl" value="4"/>
+    </attr>
+
+    <attr name="bootstrapHeading" format="enum">
+        <enum name="h1" value="0"/>
+        <enum name="h2" value="1"/>
+        <enum name="h3" value="2"/>
+        <enum name="h4" value="3"/>
+        <enum name="h5" value="4"/>
+        <enum name="h6" value="5"/>
+    </attr>
+
+    <attr name="bootstrapExpandDirection" format="enum">
+        <enum name="up" value="0"/>
+        <enum name="down" value="1"/>
+    </attr>
+
+    <attr name="showOutline" format="boolean"/>
+    <attr name="roundedCorners" format="boolean"/>
+    <attr name="hasBorder" format="boolean"/>
+    <attr name="checkedButton" format="reference"/>
+    <attr name="checked" format="boolean"/>
+    <attr name="dropdownResource" format="reference"/>
+    <attr name="itemHeight" format="dimension"/>
+    <attr name="strongText" format="string"/>
+    <attr name="messageText" format="string"/>
+    <attr name="badgeText" format="string"/>
+    <attr name="dismissible" format="boolean"/>
+
+    <!-- View attributes -->
+
+    <declare-styleable name="AwesomeTextView">
+        <attr name="bootstrapText" format="string"/>
+        <attr name="bootstrapBrand"/>
+        <attr name="fontAwesomeIcon"/>
+        <attr name="typicon"/>
+        <attr name="materialIcon" />
+        <attr name="android:clickable" />
+        <attr name="android:gravity" />
+    </declare-styleable>
+
+    <declare-styleable name="BootstrapLabel">
+        <attr name="bootstrapHeading"/>
+        <attr name="roundedCorners"/>
+    </declare-styleable>
+
+    <declare-styleable name="BootstrapButton">
+        <attr name="buttonMode"/>
+        <attr name="showOutline"/>
+        <attr name="roundedCorners"/>
+        <attr name="bootstrapBrand"/>
+        <attr name="bootstrapSize"/>
+        <attr name="checked"/>
+        <attr name="badgeText"/>
+    </declare-styleable>
+
+    <declare-styleable name="BootstrapButtonGroup">
+        <attr name="buttonMode"/>
+        <attr name="showOutline"/>
+        <attr name="roundedCorners"/>
+        <attr name="bootstrapBrand"/>
+        <attr name="bootstrapSize"/>
+        <attr name="checkedButton"/>
+    </declare-styleable>
+
+    <declare-styleable name="BootstrapProgressBar">
+        <attr name="striped" format="boolean"/>
+        <attr name="animated" format="boolean"/>
+        <attr name="bootstrapProgress" format="integer"/>
+        <attr name="bootstrapMaxProgress" format="integer"/>
+        <attr name="bootstrapshowPercentage" format="boolean"/>
+        <attr name="roundedCorners"/>
+        <attr name="bootstrapBrand"/>
+        <attr name="bootstrapSize"/>
+    </declare-styleable>
+
+    <declare-styleable name="BootstrapProgressBarGroup">
+        <attr name="bootstrapMaxProgress"/>
+        <attr name="bootstrapSize"/>
+        <attr name="roundedCorners"/>
+    </declare-styleable>
+
+    <declare-styleable name="BootstrapCircleThumbnail">
+        <attr name="bootstrapBrand"/>
+        <attr name="hasBorder"/>
+        <attr name="bootstrapSize"/>
+    </declare-styleable>
+
+    <declare-styleable name="BootstrapThumbnail">
+        <attr name="bootstrapBrand"/>
+        <attr name="roundedCorners"/>
+        <attr name="hasBorder"/>
+        <attr name="bootstrapSize"/>
+    </declare-styleable>
+
+    <declare-styleable name="BootstrapEditText">
+        <attr name="roundedCorners"/>
+        <attr name="bootstrapBrand"/>
+        <attr name="bootstrapSize"/>
+    </declare-styleable>
+
+    <declare-styleable name="BootstrapDropDown">
+        <attr name="bootstrapExpandDirection"/>
+        <attr name="dropdownResource"/>
+        <attr name="showOutline"/>
+        <attr name="roundedCorners"/>
+        <attr name="bootstrapBrand"/>
+        <attr name="bootstrapSize"/>
+        <attr name="itemHeight"/>
+    </declare-styleable>
+
+    <declare-styleable name="BootstrapWell">
+        <attr name="bootstrapSize"/>
+    </declare-styleable>
+
+    <declare-styleable name="BootstrapAlert">
+        <attr name="bootstrapBrand"/>
+        <attr name="strongText"/>
+        <attr name="messageText"/>
+        <attr name="dismissible"/>
+    </declare-styleable>
+
+    <declare-styleable name="BootstrapBadge">
+        <attr name="badgeText"/>
+        <attr name="bootstrapSize"/>
+    </declare-styleable>
+
+
+
+</resources>

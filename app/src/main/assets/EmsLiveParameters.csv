@@ -1,0 +1,24 @@
+Kilometer run counter,0100,0,4,1*A,km,1
+Engine speed,0101,0,2,0.5*A,rpm,0
+Engine temperature,0102,0,2,(0.1*A)-273.14,°C,0
+Intake air temperature,0103,0,2,(0.1*A)-273.14,°C,0
+Ignition angle output,0105,1,1,0.75*A,Grad KW,0
+Battery voltage,0106,0,1,0.1*A,V,0
+Injection time,0107,0,2,0.0064*A,ms,0
+Vehicle speed,0108,0,2,0.01*A,km/h,0
+o/p voltage sensor upstream catalyst,0109,0,1,0.005*A,V,0
+Engine load,010B,0,1,0.75*A,NA,0
+Gear,0111,0,1,1*A,NA,1
+Map sensor voltage,0112,0,2,0.00488281*A,V,0
+Throttle voltage,0114,0,2,0.0012207*A,V,0
+Side stand sensor voltage,0123,0,2,0.00488281*A,V,0
+Ambient pressure,1009,0,2,(10/256)*A,hpa,0
+Idle air leakage adaptation value,100A,13,2,A/100,kg/h,1
+Heater duty cycle,100C,0,1,1*A,%,1
+Target Idle speed,100F,0,1,A/10,1/min,1
+Kilometer run counter after MIL ON,1010,0,4,A/100,km,0
+No of cranking,101A,0,2,A,NA,1
+Read injection time wrt deg end angle,1026,0,1,(1530/255)*A,1/Grad KW,0
+Read battery voltage during last cranking,1027,0,1,0.1 * A,V,0
+Gear learnt delta voltage value of only neutral Gear,102E,0,4,(5/1024)*A,V,1
+Current Gear sensor raw voltage value,102F,0,2,(5/1024)*A,V,0

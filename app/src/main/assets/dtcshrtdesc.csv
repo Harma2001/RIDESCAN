@@ -1,0 +1,163 @@
+P0629,Check Fuel Pump Relay - Short Circuit to Battery
+P0628,Check Fuel Pump Relay - Short Circuit to Ground
+P0627,Check Fuel Pump Relay - Open Load
+P0262,Check Fuel Injector - Short Circuit to Battery Plus
+P0261,Check Fuel Injector - Short Circuit to Ground
+P0201,Check Fuel Injector - Open Load
+P2300,Check Ignition Coil - Short Circuit to Ground
+P0032,Check Lamda/O2 Sensor - Short Circuit to Battery
+P0031,Check Lamda/O2 Sensor - Short Circuit to Ground
+P0030,Check Lamda/O2 Sensor - Open Load
+P0511,Check IACV - Open Load
+P0509,Check IACV - Short Circuit to Battery
+P0508,Check IACV - Short Circuit to Ground
+P0108,Check MAP Sensor - Short circuit to Battery / Open Circuit
+P0107,Check MAP Sensor - Short circuit to Ground
+P0112,Check Intake Air temperature Short Circuit to ground
+P0113,Check Intake Air Temperature Sensor Open Load/ Short circuit
+P0123,Check Throttle Position sensor : Open Load, Short circuit to Battery
+P0122,Check Throttle position sensor Short circuit to Ground
+P0132,Check Lamda/O2 Sensor - Short circuit to Battery
+P0131,Check Lamda/O2 Sensor - Short circuit to Ground
+P0134,Check Lamda/O2 Sensor - Open load
+P0130,Check Lambda O2 Sensor - Short to heater line signal stuck to upper lower operating region
+P0335,CKP Sensor - Device not operational
+P1560,Check Battery - Non plausible
+P0562,Check Battery - Min error
+P0563,Check Battery - Max error
+P0117,Check ECT Sensor - Short circuit to Ground
+P0118,Check ECT Sensor - Open load
+P1613,Check Side Stand Switch - Open load
+P1612,Check Side Stand Switch - Short Circuit to Ground
+P1611,Check Side Stand Switch - Short Circuit to Battery
+P1610,Check Side Stand Switch - Non Plausible
+P0459,Check Canister Purging - Short Circuit to Battery
+P0458,Check Canister Purging - Short Circuit to Ground
+P0444,Check Canister Purging - Open Load
+P0000,Sensor Supply 1 Error
+P1604,Sensor Supply Voltage Supply1 - Over Voltage
+P0642,Sensor Supply Voltage Supply 1 - Short Circuit to Ground
+P1605,Sensor Supply Voltage Supply 1 - Under Voltage
+P0000,Sensor Supply 2 Error
+P1606,Sensor Supply Voltage Supply 2 - Over Voltage
+P0652,Sensor Supply Voltage Supply 2 - Short Circuit to Ground
+P1607,Sensor Supply Voltage Supply 2 - Under Voltage
+P0692,Check Fan Relay - Short to Battery
+P0691,Check Fan Relay - Short to Ground
+P0480,Check Fan Relay - Open Load
+P0917,Gear Position Sensor - Short to battery
+P0916,Gear Position Sensor - Short toGround / Open Load
+P0501,Check Wheel Speed Sensor - Device Present or Not V/L Speed
+P0617,Check Starter Relay - Short to Battery
+P0616,Check Starter Relay - Short to Ground
+P0615,Check Starter Relay - Open Load
+P1510,Engine Over Heat - Speed Limited
+P0410,Check SAI - Short to Battery
+P0412,Check SAI - Short to Ground
+P0413,Check SAI - Open Load
+P0642,Sensor supply short to Ground
+P1643,Sensor supply short to Battery
+P0201,Injector Open circuit
+P0261,Injector short to Ground
+P0262,Injector short to Battery
+P0627,Fuel Pump relay Open circuit
+P0628,Fuel Pump relay short to Ground
+P0629,Fuel Pump relay short to Battery
+P0113,Intake Air temperature sensor Open circuit / Short to Battery
+P0112,Intake Air temperature sensor short to Ground
+P0134,O2 sensor Open circuit
+P0131,O2 sensor short to Ground
+P0132,O2 sensor short to Battery
+P0130,O2 sensor signal error
+P0123,TPS Open circuit / Short to Battery
+P0122,TPS short to Ground
+P1238,Engine Temperature Sensor Open circuit / Short to Battery
+P1239,Engine Temperature Sensor short to Ground
+P2300,Ignition coil short to Ground
+P0030,O2 heater Open circuit
+P0031,O2 heater short to Ground
+P0032,O2 heater short to Battery
+P0511,IACV Open circuit
+P0508,IACV short to Ground
+P0509,IACV short to Battery
+P0108,MAP sensor Open circuit / Short to Battery
+P0107,MAP sensor short to Ground
+P1336,Crank sensor error
+0x026000,Energy Saving mode active
+0xB7F600,Left indicator switch short circuit
+0xB7F601,Right indicator switch short circuit
+0xB7F602,Indicator Right Front : open circuit
+0xB7F604,Indicator right front : Short circuit
+0xB7F605,Indicator left front : open circuit
+0xB7F607,Indicator left front : Short circuit
+0xB7F608,Indicator Left Rear : short
+0xB7F60A,Rear Left indicator open circuit
+0xB7F60B,Rear Right Indicator Short Circuit
+0xB7F60C,Rear right Indicator : Open circuit
+0xB7F603,Battery Overvoltage
+0xB7F606,Undervoltage battery
+0xB7F609,Odometer manipulated
+0xB7F60D,Tank sensor : faulty
+0xB7F60E,Coding Data transmission errors
+0xB7F60F,Coding Signature failure
+0xB7F610,No coding
+0xB7F611,NVM_E_READ_FAILED
+0xB7F612,NVM_E_WRITE_ALL_FAILED
+0xB7F613,NVM_E_WRITE_FAILED
+0xB7F614,NVM_E_WRONG_CONFIG_ID
+0xB7F615,NVM_E_CONTROL_FAILED
+0xB7F616,NVM_E_ERASE_FAILED
+0xB7F617,NVM_E_READ_ALL_FAILED
+0xB7F618,5V Output Short Circuit
+0xB7F628,Production mode active
+0xE1045F,CAN Bus Off
+0xE11424,CAN DME message terminal_status_Motorcycle_2010 : timeout
+0xE11428,CAN DME message Motor data_1_Motorcycle_2010 : Timeout
+0xE1142A,CAN DME message Motor data_2_Motorcycle_2010 : Timeout
+0xE11440,CAN DME Message Route_Redundant_Motorcycle_2010 : Timeout
+0xE11422,CAN ABSBCO Message Speed_Motorcycle_2010 : Timeout
+0xE11442,CAN ABS-BCO Message Route_Relativ_Motorrad_2010 : Timeout
+0xE11454,CAN ABSBCO Message Speed_Motorcycle_2010 : CRC error
+0xE11455,CAN ABSBCO Message Speed_ Motorcycle_2010 : Alive Error
+0x480680,ABS disabled via DIA
+0x480703,Valve Failures
+0x480704,Internal Fault
+0x480705,Main Driver Leakage
+0x480706,Hardware Fault
+0x480707,MCU Failures
+0x480708,CAN_RAM_Check
+0x480709,Kl. 15 Hardware implausibly
+0x48070A,EEPROM anomaly Suspicion
+0x48070E,Valve Activation invalid
+0x48071A,Pump blocked
+0x48071B,Pump connection
+0x48071C,Pump supply
+0x48071D,Pump shorcircuit
+0x480860,Voltage low
+0x480863,Voltage high
+0x480901,Sensor Periodic fault front
+0x480902,Sensor Double Frequency Check front
+0x480903,Sensor Phase-Length-Supervision Fault front
+0x480904,Sensor El. Fault front
+0x480905,Sensor Extrapolation Fault front
+0x480906,Sensor Start Recognition Fault front
+0x480911,Sensor Periodic Fault rear
+0x480913,Sensor Phase-Length-Supervision Fault rear
+0x480914,Sensor El. Fault rear
+0x480915,Sensor Extrapolation Fault rear
+0x480916,Sensor Start Recognition Fault rear
+0x480B2F,Coding Error
+0xD3445F,CAN Bus Off
+0xD34460,CAN Transmit Timeout
+0xD35424,CAN Timeout terminal status (130h)
+0xD35426,CAN Timeout combination data (3FFh)
+0xD3542A,CAN Timeout motor data_2 (10Ch)
+0xD35444,CAN Alive counter error terminal status (130h)
+0xD35446,CAN Checksum error_clamp status (130h)
+0xD35452,CAN Checksum error input switch block left motorcycle(2A0h)
+0xD35453,CAN Alive error input_block_link_motorbike (2A0h)
+0xD35458,CAN Checksum error motor data_2 (10Ch)
+0xD35459,CAN Alive error motor data_2 (10Ch)
+0x480688,CAN1 Controller / transceiver hardware error
+0x480695,CAN Output messages activated via DIA
+0x022900,energy - Saving mode active

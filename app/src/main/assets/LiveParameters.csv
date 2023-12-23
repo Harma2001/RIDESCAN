@@ -1,0 +1,4 @@
+Kilometer Count,0100,4,A,Kms
+Engine Speed,0101,4,A,RPM
+Vehicle Speed,0108,4,0.005*A,Kmph
+Read Battery voltage during last cranking,1027,0,1,0.1 * A,V,0

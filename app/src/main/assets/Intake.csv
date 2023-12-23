@@ -1,0 +1,10 @@
+Throttle position,010A,0,1,0.39215686*A,NA,1
+Throttle voltage,0114,0,2,0.0012207*A,V,0
+Intake air temperature,0103,0,2,(0.1*A)-273.14,°C,0
+Temperature inlet manifold voltage,0113,0,1,0.01953125*A,V,0
+MAP,011C,0,2,0.0390625*A,hPa,0
+Map sensor voltage,0112,0,2,0.00488281*A,V,0
+Ambient pressure,1009,0,2,(10/256)*A,hpa,0
+Idle air leakage adaptation value,100A,0,2,A/100,kg/h,1
+Idle speed control active,1006,0,1,A,NA,1
+Air mass Flow,0104,0,2,0.1*A,kg/h,0

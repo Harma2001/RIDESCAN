@@ -1,0 +1,16 @@
+0x5D90,Wheel speed sensor-el. Fault front
+0x5D91,Wheel speed sensor-Extrapolation Fault front
+0x5D92,Wheel speed sensor-Periodic Fault front
+0x5D93,Wheel speed sensor-Start Recognition Fault front
+0x5D94,Wheel speed sensor-Phase.Length.Supervision Fault front
+0x5DD3,OSEK Fatal Error
+0x5DF0,Pump defective
+0x5DF1,Pump connection
+0x5DF2,Hardware Fault
+0x5DF5,Internal Hardware Fault(main driver,valves,...)
+0x5DF3,Voltage low-long term detection
+0x5DF4,Voltage low
+0x5DF7,Voltage high
+0x5DF8,KL30 disconnection
+0x5E59,Vehicle variant coding Error
+0x5E5A,ABS Switch failure

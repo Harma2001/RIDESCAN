@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:visibility="visible">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/worldmapbg"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll1"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:paddingBottom="10dp"
+            android:layout_weight="1"
+            android:id="@+id/linearLayout7">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/ic_live"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/absliveparams"
+                android:gravity="center_horizontal|center_vertical"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorwhite"/>
+
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="end"
+            android:layout_weight="1"
+            android:src="@drawable/ic_tvs_race1" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/bikeview2"
+        android:layout_width="160dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="280dp"
+        android:layout_alignTop="@+id/btnsts"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        android:src="@mipmap/rrtopview" />
+
+        <ListView
+            android:id="@+id/lv"
+            android:layout_width="match_parent"
+            android:layout_height="530dp"
+            android:layout_below="@+id/ll1"
+            android:visibility="visible">
+        </ListView>
+
+
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/prev"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_marginRight="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/black_rec"
+            android:text="@string/previous"
+            android:textColor="@color/colorwhite"
+            android:textSize="25dp" />
+        <ImageView
+            android:id="@+id/ss"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/black_rec"
+            android:padding="5dp"
+            android:src="@drawable/ic_ss" />
+        <Button
+            android:id="@+id/next"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/black_rec"
+            android:text="@string/next"
+            android:textColor="@color/colorwhite"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+</RelativeLayout>

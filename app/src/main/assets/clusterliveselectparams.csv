@@ -1,0 +1,4 @@
+1,Battery voltage,E142,V
+2,Photosensor value,E11B,%
+3,Displayed Odometer value,E119,Kms
+4,Absolute Odometer value,D10D,Kms

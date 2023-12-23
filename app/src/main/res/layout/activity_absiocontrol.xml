@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout3">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:paddingBottom="10dp"
+            android:layout_weight="1"
+            android:id="@+id/linearLayout7">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/ic_iocontrol"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/absiocontrol"
+                android:gravity="center_horizontal|center_vertical"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorwhite"/>
+
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="end"
+            android:layout_weight="1"
+            android:src="@drawable/ic_tvs_race1" />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/bikeview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="150dp"
+        android:src="@mipmap/rrtopview" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView11"
+        android:layout_alignStart="@+id/textView11"
+        android:layout_alignTop="@+id/bikeview"
+        android:background="@drawable/black_rec"
+        android:textColor="@color/colorwhite"
+        android:textOff="@string/on"
+        android:textOn="@string/off"
+        android:textSize="22sp" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton3"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/bikeview"
+        android:layout_alignLeft="@+id/toggleButton2"
+        android:layout_alignStart="@+id/toggleButton2"
+        android:background="@drawable/black_rec"
+        android:textColor="@color/colorwhite"
+        android:textOff="@string/on"
+        android:textOn="@string/off"
+        android:textSize="22sp" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton4"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/toggleButton5"
+        android:layout_alignStart="@+id/toggleButton5"
+        android:layout_alignTop="@+id/bikeview"
+        android:background="@drawable/black_rec"
+        android:textColor="@color/colorwhite"
+        android:textOff="@string/on"
+        android:textOn="@string/off"
+        android:textSize="22sp" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton5"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/bikeview"
+        android:layout_alignLeft="@+id/textView14"
+        android:layout_alignStart="@+id/textView14"
+        android:background="@drawable/black_rec"
+        android:textColor="@color/colorwhite"
+        android:textOff="@string/on"
+        android:textOn="@string/off"
+        android:textSize="22sp" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView15"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/black_rec"
+        android:textColor="@color/colorwhite"
+        android:textOff="@string/on"
+        android:textOn="@string/off"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:layout_below="@+id/toggleButton2"
+        android:text="@string/inletvalvefront"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+
+        android:gravity="center"
+        android:textColor="@color/colorwhite"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView11"
+        android:layout_alignStart="@+id/textView11"
+        android:layout_below="@+id/toggleButton3"
+        android:text="@string/inletvalverear"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/colorwhite"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView11"
+        android:layout_alignBottom="@+id/textView11"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:textStyle="bold"
+
+        android:text="@string/outletvalvefront"
+        android:gravity="center"
+        android:textColor="@color/colorwhite"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView12"
+        android:layout_alignBottom="@+id/textView12"
+        android:layout_alignEnd="@+id/textView13"
+        android:layout_alignRight="@+id/textView13"
+        android:text="@string/outletvalverear"
+        android:gravity="center"
+        android:textStyle="bold"
+
+        android:textColor="@color/colorwhite"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="36dp"
+        android:text="@string/pump"
+        android:textColor="@color/colorwhite"
+        android:textSize="17sp" />
+
+
+</RelativeLayout>

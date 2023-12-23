@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="2"
+   >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="1dp"
+            android:background="@drawable/bg_readdid"
+            android:padding="3dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="2dp">
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorwhite"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/sn"
+                    android:text="S.No" />
+
+                <TextView
+                    android:layout_width="480dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorwhite"
+                    android:textSize="20dp"
+                    android:id="@+id/desc"
+                    android:text="Description goes on here" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorwhite"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:textAlignment="textEnd"
+                    android:textSize="22dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:id="@+id/val"
+                    android:text="total desription goes on here"
+                    android:textColor="@color/colorwhite"
+                    tools:ignore="RtlCompat" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+</LinearLayout>
+

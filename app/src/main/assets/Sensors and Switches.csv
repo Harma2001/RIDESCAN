@@ -1,0 +1,8 @@
+Gear,0111,0,1,1*A,NA,1
+Current Gear sensor raw voltage value,102F,0,2,(5/1024)*A,V,0
+Read Side stand switch status,1028,16,1,A,NA,1
+Read Kill switch status,1024,20,1,A,NA,1
+Read ES switch status,1025,16,1,A,NA,1
+Read FAN relay status,A806,16,1,A,NA,1
+Read Starter relay status,A80A,16,1,A,NA,1
+Side Stand sensor voltage,0123,0,2,0.00488281*A,V,0

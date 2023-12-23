@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    >
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="220dp"
+        android:layout_height="180dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_tvs_race1" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/worldmapbg"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_transparent"
+        android:alpha="0.8"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/appname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ll2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:padding="25dp"
+            android:text="@string/RIDESCAN"
+            android:textColor="@color/colorwhite"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:ems="10"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:textStyle="normal"
+                android:inputType="textPersonName"
+                android:textColor="@color/colorwhite"
+                android:textColorHint="@color/colorhint"
+                android:backgroundTint="@color/colorAccent"
+                android:hint="@string/enterregisteredemail" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/basic_buttonblue"
+                android:textColor="@android:color/white"
+                android:shadowColor="@color/colorblk"
+                android:textSize="22sp"
+                android:shadowDx="4"
+                android:shadowDy="4"
+                android:text="@string/getdetails" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

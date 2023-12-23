@@ -1,0 +1,10 @@
+1,Supplier-ECU-Software-ID,1A94,1
+2,Production Date,1A99,2
+3,VIN,1A90,1
+4,Vehicle Code,1A96,1
+5,Supplier Production Data,1A8F,1
+6,Date of Fill & Bleed,1A8B,2
+7,Fill & Bleed -process,1A8A,3
+8,Wheel speed sensor inputs,2107,4
+9,Sensor-Inputs and Voltages,2106,5
+10,Mu Jump Counter,1A97,6

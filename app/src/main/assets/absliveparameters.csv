@@ -1,0 +1,15 @@
+1,Active diagnostic session,F186
+2,Mileage,1700
+3,System time,1701
+4,Battery voltage,E0E2
+5,ABS reference velocity,E0DF
+6,ABS Control mode,E0E1
+7,Programming counter,2502
+8,Status ECU,4001
+9,Read control function status,4003
+10,Mu Jump Counter,E0D8
+11,Status ABS,E0DC
+12,Status pump,E0DA
+13,Status valve,E0DB
+14,Wheel speed,E0DD
+15,Status ABS switch,E198

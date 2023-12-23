@@ -1,0 +1,4 @@
+Kilometer run counter,0100,0,4,1*A,km,1
+Total engine run hour counter,0120,0,4,1*A,min,1
+Avg fuel consumption in last 5 - key ON to key OFF cycles,011D,0,2,0.1*A,km/l,0
+Avg vehicle speed for last 5 - key ON to key OFF cycles,011E,0,1,1.25*A,km/hr,0

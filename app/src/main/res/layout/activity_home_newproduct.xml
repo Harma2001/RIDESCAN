@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:background="@drawable/bg_transparent3"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/prod_imgre"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/ic_launcher"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorgrey2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/prod_name"
+            android:text="RR310"
+            android:textColor="@color/colorwhite"
+            android:textSize="23sp"
+            android:textStyle="italic"
+            android:layout_gravity="center"
+            android:padding="5dp"/>
+
+
+    </LinearLayout>
+

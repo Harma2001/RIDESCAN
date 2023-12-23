@@ -1,0 +1,6 @@
+Injection time,0107,0,2,0.0064*A,ms,0
+Instantaneous fuel consumption,011B,0,2,0.1*A,km/l,0
+Ignition dwell time,010C,0,2,0.001*A,ms,0
+Fuel pump relay status,A800,16,1,A,NA,0
+Injection status,A802,16,2,A,NA,0
+Ignition status,A803,16,1,A,NA,0

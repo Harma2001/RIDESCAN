@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/checkedTextView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="1dp"
+    android:layout_marginBottom="1dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+
+    android:gravity="center_horizontal"
+    android:textColor="@color/colorwhite"
+    android:textSize="20sp"
+    android:padding="5dp"
+    android:button="@null"
+    android:background="@drawable/bg_transparent"
+    android:buttonTint="#fff"
+    android:drawableRight="@drawable/custom_checkbox"
+    android:text="No dent &amp; Damage"
+    />

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:background="@android:color/transparent"
+    android:padding="10dp"
+    android:alpha="0.9"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_readdid1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/ll"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="35dp"
+                android:gravity="center_horizontal"
+                android:textColor="@color/colorwhite"
+                android:text="Signs"/>
+
+            <Button
+                android:id="@+id/custbtn"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/black_rec"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="Technician Signature"
+                android:textColor="@color/colorwhite"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/techname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@android:color/holo_blue_light"
+                android:gravity="center_horizontal"
+                android:hint="Techniciam Name"
+                android:textColor="@color/colorwhite"
+                android:textColorHint="@color/colorwhite"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/inch_btn"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/black_rec"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="PDI Incharge Signature"
+                android:textColor="@color/colorwhite"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/ll"
+            android:id="@+id/vw"
+            android:background="@color/colorwhite"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vw"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="350dp"
+                android:layout_height="45dp"
+                android:id="@+id/prev"
+                android:background="@drawable/black_rec"
+                android:textSize="20dp"
+                android:textColor="@color/colorwhite"
+                android:layout_weight="1"
+                android:layout_marginRight="250dp"
+                android:text="Previous"/>
+            <Button
+                android:layout_width="350dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:id="@+id/next"
+                android:background="@drawable/black_rec"
+                android:textSize="20dp"
+                android:layout_marginLeft="50dp"
+                android:textColor="@color/colorwhite"
+                android:text="Next"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

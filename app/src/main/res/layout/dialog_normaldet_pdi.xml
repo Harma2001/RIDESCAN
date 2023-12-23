@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:background="@android:color/transparent"
+    android:padding="10dp"
+    android:alpha="0.9"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_readdid1"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorwhite"
+        android:text="Basic Details"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/ll"
+        android:background="@color/colorwhite"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="50dp"
+    android:layout_marginLeft="50dp"
+    android:id="@+id/ll"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Model Name : "
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorwhite"
+        android:textSize="20dp"
+        android:id="@+id/modelname"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:id="@+id/tvsm"
+        android:textColor="@color/colorwhite"
+        android:textSize="20dp"
+        android:textColorHint="@color/colorwhite"
+        android:hint="TVSM Inv. No."
+        android:backgroundTint="@android:color/holo_blue_light"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:id="@+id/date_of_pdi"
+        android:textColor="@color/colorwhite"
+        android:textSize="20dp"
+        android:background="@drawable/black_rec1"
+        android:text="Date of PDI"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:id="@+id/chassis"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:textColor="@color/colorwhite"
+        android:textSize="20dp"
+        android:textColorHint="@color/colorwhite"
+        android:hint="Chassis No"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:id="@+id/date_of_inv"
+        android:textColor="@color/colorwhite"
+        android:textSize="20dp"
+        android:background="@drawable/black_rec1"
+        android:text="Date of  Inv."/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:id="@+id/bat"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:textColor="@color/colorwhite"
+        android:textSize="20dp"
+        android:textColorHint="@color/colorwhite"
+        android:hint="Battery No"/>
+
+</LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/ll"
+        android:id="@+id/vw"
+        android:background="@color/colorwhite"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vw"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:id="@+id/prev"
+            android:background="@drawable/black_rec"
+            android:textSize="20dp"
+            android:textColor="@color/colorwhite"
+            android:layout_weight="1"
+            android:layout_marginRight="250dp"
+            android:text="Previous"/>
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:id="@+id/next"
+            android:background="@drawable/black_rec"
+            android:textSize="20dp"
+            android:layout_marginLeft="50dp"
+            android:textColor="@color/colorwhite"
+            android:text="Next"/>
+    </LinearLayout>
+</LinearLayout>
+</RelativeLayout>

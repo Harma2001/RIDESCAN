@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+   <!-- <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/worldmapbg"/>-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/linearLayout7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:alpha="0.9"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/ic_live" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="@string/emsliveparam"
+                    android:textColor="@color/colorwhite"
+                    android:textSize="28sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="end"
+                android:layout_weight="1"
+                android:src="@drawable/ic_tvs_race1" />
+        </LinearLayout>
+
+
+
+
+        <ImageView
+            android:id="@+id/bikeview"
+            android:layout_width="200dp"
+            android:layout_height="350dp"
+            android:layout_alignTop="@+id/btnsts"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@mipmap/rrtopview" />
+
+        <Button
+            android:id="@+id/btnhistory"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/bikeview"
+            android:layout_toStartOf="@+id/bikeview"
+            android:layout_weight="1"
+            android:background="@drawable/black_rec1"
+            android:padding="5dp"
+            android:text="@string/history"
+            android:textColor="@color/colorwhite"
+            android:textSize="16sp"
+             />
+
+        <Button
+            android:id="@+id/btnobd"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_below="@+id/linearLayout3"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:background="@drawable/black_rec1"
+            android:padding="5dp"
+            android:text="@string/obd"
+            android:textColor="@color/colorwhite"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnecuid"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_alignLeft="@+id/btnsts"
+            android:layout_alignStart="@+id/btnsts"
+            android:layout_weight="1"
+            android:background="@drawable/black_rec1"
+            android:padding="5dp"
+            android:text="@string/ecuid"
+            android:layout_centerVertical="true"
+            android:textColor="@color/colorwhite"
+            android:textSize="16sp" />
+
+
+        <Button
+            android:id="@+id/btncomp"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_alignBottom="@+id/btnexhaust"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="101dp"
+            android:layout_marginRight="101dp"
+            android:layout_weight="1"
+            android:background="@drawable/black_rec1"
+            android:padding="5dp"
+            android:text="@string/cranking"
+            android:textColor="@color/colorwhite"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnint"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_alignLeft="@+id/btnhistory"
+            android:layout_alignStart="@+id/btnhistory"
+            android:layout_alignTop="@+id/bikeview"
+            android:layout_weight="1"
+            android:background="@drawable/black_rec1"
+            android:padding="5dp"
+            android:text="@string/intake"
+            android:textColor="@color/colorwhite"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnexhaust"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_alignLeft="@+id/btnsensors"
+            android:layout_alignStart="@+id/btnsensors"
+            android:layout_below="@+id/btnsensors"
+            android:layout_marginLeft="31dp"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="73dp"
+            android:layout_weight="1"
+            android:background="@drawable/black_rec1"
+            android:padding="5dp"
+            android:text="@string/exhaust"
+            android:textColor="@color/colorwhite"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/btnsensors"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_below="@+id/btnint"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/bikeview"
+            android:layout_toStartOf="@+id/bikeview"
+            android:layout_weight="1"
+            android:background="@drawable/black_rec1"
+            android:padding="5dp"
+            android:text="@string/sensorsandswitchs"
+            android:textColor="@color/colorwhite"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnfuel"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/btnsensors"
+            android:layout_weight="1"
+            android:background="@drawable/black_rec1"
+            android:padding="5dp"
+            android:layout_marginRight="53dp"
+            android:text="@string/fuelingand"
+            android:textColor="@color/colorwhite"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnsts"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_below="@+id/btnobd"
+            android:layout_marginTop="33dp"
+            android:layout_toEndOf="@+id/bikeview"
+            android:layout_toRightOf="@+id/bikeview"
+            android:layout_weight="1"
+            android:background="@drawable/black_rec1"
+            android:padding="5dp"
+            android:text="@string/currentstatus"
+            android:textColor="@color/colorwhite"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tit"
+            android:textSize="23dp"
+            android:text="Title"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorwhite"
+            android:layout_below="@+id/bikeview"/>
+        <ListView
+            android:id="@+id/lv"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_below="@+id/tit"
+            android:layout_above="@+id/llbot"/>
+
+        <LinearLayout
+            android:id="@+id/llbot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/prev"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_marginRight="100dp"
+                android:layout_weight="1"
+                android:background="@drawable/black_rec"
+                android:text="@string/previous"
+                android:textColor="@color/colorwhite"
+                android:textSize="22sp" />
+            <ImageView
+                android:id="@+id/ss"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:background="@drawable/black_rec"
+                android:padding="5dp"
+                android:src="@drawable/ic_ss" />
+            <Button
+                android:id="@+id/next"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="100dp"
+                android:layout_weight="1"
+                android:background="@drawable/black_rec"
+                android:text="@string/next"
+                android:textColor="@color/colorwhite"
+                android:textSize="22sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

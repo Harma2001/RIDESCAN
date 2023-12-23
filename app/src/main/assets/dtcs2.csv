@@ -1,0 +1,31 @@
+P0642,Sensor supply short to Ground
+P1643,Sensor supply short to Battery
+P0201,Injector Open circuit
+P0261, Injector Short to Ground
+P0262,Injector Short to Battery
+P0627,Fuel Pump Relay Coil Open Circuit
+P0628,Fuel Pump Relay Coil Short to Ground
+P0629,Fuel Pump Relay Coil Short to Battery
+P0113,MAT Sensor Open Circuit / Short to Battery
+P0112,MAT Sensor Short to Ground
+P0134,O2 Sensor Open Circuit
+P0131,O2 Sensor Short to Ground
+P0132,O2 Sensor Short to Battery
+P0130,O2 Sensor Signal Error
+P0031,O2 Sensor Heater Short to Ground
+P0030,O2 heater Open circuit
+P0032,O2 Sensor Heater Short to Battery
+P0123,TPS Open Circuit / Short to Battery
+P0122,TPS Short to Ground
+P1238,ETS Open Circuit / Short to Battery
+P1239,ETS Short to Ground
+P2300,Ignition Coil Short to Ground
+P0511,IACV - Open Circuit
+P0509,IACV - Short Circuit to Battery
+P0508,IACV - Short Circuit to Ground
+P0108,MAP Sensor Open Circuit / Short to Battery
+P0107,MAP sensor short to Ground
+P1336,Crank sensor error
+P0444,Canister Purge Valve Open Circuit
+P0459,Canister Purge Valve Short to Battery
+P0458,Canister Purge Vavle Short to Ground

@@ -1,0 +1,11 @@
+1,Battery voltage,E142
+2,Indicator control,E1B3
+3,Photosensor value,E11B
+4,Wake Line status,E11C
+5,Displayed Odometer value,E119
+6,Absolute Odometer value,D10D
+7,Odometer offset,D114
+8,Service date,E12C
+9,Service distance,E12D
+10,Fuel tank,E064
+11,Time & Date,E12B

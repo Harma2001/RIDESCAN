@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/button_clear_white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:textColor="@color/colorwhite"
+        android:textSize="35dp"
+        android:background="@color/colordrclr"
+        android:text="Flashing Report"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:textSize="30dp"
+            android:layout_marginRight="10dp"
+            android:text="Ems Flashing  :"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/emsstatus"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:text="Success"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/teststamplayout"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:textSize="30dp"
+            android:layout_marginRight="10dp"
+            android:text="Write Test Stamp  :"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/teststampstatus"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:text="Success"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/llhint"
+        android:gravity="center_horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorred"
+            android:textSize="20dp"
+            android:text="Hint : Go to Ems -> ECU Write Data -> TestStamp"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dialogb1"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorwhite"
+        android:background="@drawable/button_click"
+        android:layout_marginBottom="5dp"
+        android:text="OK"/>
+    
+</LinearLayout>
+
+</RelativeLayout>

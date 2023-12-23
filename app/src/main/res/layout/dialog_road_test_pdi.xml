@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:background="@android:color/transparent"
+    android:padding="10dp"
+    android:alpha="0.9"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_readdid1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Road Test"
+            android:textColor="@color/colorwhite"
+            android:textSize="35dp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/ll"
+            android:background="@color/colorwhite"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/ll"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/starting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:button="@null"
+                android:buttonTint="#fff"
+                android:drawableRight="@drawable/custom_checkbox"
+                android:gravity="center_horizontal"
+                android:text="Starting"
+                android:textColor="@color/colorwhite"
+                android:textSize="20dp" />
+
+            <CheckBox
+                android:id="@+id/gear_shift_op"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:button="@null"
+                android:buttonTint="#fff"
+                android:drawableRight="@drawable/custom_checkbox"
+                android:gravity="center_horizontal"
+                android:text="Gear Shifting operation"
+                android:textColor="@color/colorwhite"
+                android:textSize="20dp" />
+
+            <CheckBox
+                android:id="@+id/clutch_op"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:button="@null"
+                android:drawableRight="@drawable/custom_checkbox"
+                android:gravity="center_horizontal"
+                android:text="Clutch Operation"
+                android:textColor="@color/colorwhite"
+                android:textSize="20dp" />
+
+            <CheckBox
+                android:id="@+id/brake_op"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:button="@null"
+                android:drawableRight="@drawable/custom_checkbox"
+                android:gravity="center_horizontal"
+                android:text="Brake Operation"
+                android:textColor="@color/colorwhite"
+                android:textSize="20dp" />
+
+            <CheckBox
+                android:id="@+id/Instrument_clst_work"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:button="@null"
+                android:drawableRight="@drawable/custom_checkbox"
+                android:gravity="center_horizontal"
+                android:text="Instrument Cluster Working"
+                android:textColor="@color/colorwhite"
+                android:textSize="20dp" />
+
+            <CheckBox
+                android:id="@+id/fuel_meter_op"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:button="@null"
+                android:drawableRight="@drawable/custom_checkbox"
+                android:gravity="center_horizontal"
+                android:text="Fuel Meter Operation"
+                android:textColor="@color/colorwhite"
+                android:textSize="20dp" />
+
+            <CheckBox
+                android:id="@+id/any_abs_lits"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:button="@null"
+                android:drawableRight="@drawable/custom_checkbox"
+                android:gravity="center_horizontal"
+                android:text="Any ABS Lights "
+                android:textColor="@color/colorwhite"
+                android:textSize="20dp" />
+
+            <CheckBox
+                android:id="@+id/any_abnormal_noise"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:button="@null"
+                android:drawableRight="@drawable/custom_checkbox"
+                android:gravity="center_horizontal"
+                android:text="Any Abnormal Noise"
+                android:textColor="@color/colorwhite"
+                android:textSize="20dp" />
+
+            <CheckBox
+                android:id="@+id/fan_test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:button="@null"
+                android:drawableRight="@drawable/custom_checkbox"
+                android:gravity="center_horizontal"
+                android:text="Fan test"
+                android:textColor="@color/colorwhite"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/ll"
+            android:id="@+id/vw"
+            android:background="@color/colorwhite"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vw"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="350dp"
+                android:layout_height="45dp"
+                android:id="@+id/prev"
+                android:background="@drawable/black_rec"
+                android:textSize="20dp"
+                android:textColor="@color/colorwhite"
+                android:layout_weight="1"
+                android:layout_marginRight="250dp"
+                android:text="Previous"/>
+            <Button
+                android:layout_width="350dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:id="@+id/next"
+                android:background="@drawable/black_rec"
+                android:textSize="20dp"
+                android:layout_marginLeft="50dp"
+                android:textColor="@color/colorwhite"
+                android:text="Next"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

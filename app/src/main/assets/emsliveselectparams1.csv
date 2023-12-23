@@ -1,0 +1,103 @@
+1,Kilometer run counter,0100,0,4,1*A,km,1
+2,Engine speed,0101,0,2,0.5*A,rpm,0
+3,Engine temperature,0102,0,2,(0.1*A)-273.14,°C,0
+4,Intake air temperature,0103,0,2,(0.1*A)-273.14,°C,0
+5,Air mass Flow,0104,0,2,0.1*A,kg/h,0
+6,Ignition angle output,0105,1,1,0.75*A,Grad KW,0
+7,Battery voltage,0106,0,1,0.1*A,V,0
+8,Injection time,0107,0,2,0.0064*A,ms,0
+9,Vehicle speed,0108,0,2,0.01*A,km/h,0
+10,o/p voltage sensor upstream catalyst,0109,0,1,0.005*A,V,0
+11,Throttle position,010A,0,1,0.39215686*A,NA,1
+12,Engine load,010B,0,1,0.75*A,NA,0
+13,Ignition dwell time,010C,0,2,0.001*A,ms,0
+14,Canister valve duty cycle,010D,0,2,0.0015625*A,NA,0
+15,Lambda correction,010E,0,2,0.00003052*A,NA,0
+Lambda average correction,010F,0,2,0.00003052*A,NA,0
+Gear,0111,0,1,1*A,NA,1
+Map sensor voltage,0112,0,2,0.00488281*A,V,0
+Temperature inlet manifold voltage,0113,0,1,0.01953125*A,V,0
+Throttle voltage,0114,0,2,0.0012207*A,V,0
+Distance since MIL ON,0116,0,1,1*A,NA,1
+Actual position of stepper motor(steps),0117,0,2,1*A,NA,1
+State of crankshaft signal evaluation,0118,8,1,A,NA,1
+Lambda multiplicative adaption,0119,0,2,0.00003052*A,NA,0
+Lambda additive adaption,011A,1,2,0.046875*A,%,0
+Instantaneous fuel consumption,011B,0,2,0.1*A,km/l,0
+MAP,011C,0,2,0.0390625*A,hPa,0
+Avg fuel consumption in last 5 -key ON to key OFF cycles,011D,0,2,0.1*A,km/l,0
+Avg vehicle speed for last 5-key ON to key OFF cycles,011E,0,1,1.25*A,km/hr,0
+Total engine run hour counter,0120,0,4,1*A,min,1
+Total number of combustion event counter in the given driving cycle,0121,0,4,1*A,num,1
+Total number of engine revolutions in the given driving cycle,0122,0,4,1*A,num,1
+Side stand sensor voltage,0123,0,2,0.00488281*A,V,0
+Injection 1 ( Injection condition enable,A802,0,2,A,NA,1
+Ignition 1  ( Igntion condition enable,A803,0,1,A,NA,1
+Stepper status,1000,0,1,A,NA,1
+Engine status ,1002,7,1,A,NA,1
+Status of cranking ,1003,9,1,A,NA,1
+Engine sync status,1004,0,1,A,NA,1
+Clutch switch status,1005,0,1,A,NA,1
+Idle speed control active,1006,0,1,A,NA,1
+System state,1007,10,1,A,NA,1
+Fuel state,1008,11,1,A,NA,1
+Ambient pressure,1009,0,2,(10/256)*A,hpa,0
+Idle air leakage adaptation value,100A,13,2,A/100,kg/h,1
+Heater duty cycle,100C,0,1,1*A,%,1
+ECU SW and calibration version,100D,12,16,A,NA,1
+ECU hardware Version,100E,12,10,A,NA,1
+Target idle speed,100F,0,1,A/10,1/min,1
+Kilometer run counter after MIL ON,1010,0,4,A/100,km,0
+Number of active faults in the memory,1011,0,1,A,NA,1
+Number of faults in the history,1013,0,1,A,NA,1
+Status of Main Relay,1012,2,1,A,NA,1
+CVN,F1F1,17,4,A,NA,1
+No of hours the KL 15 is ON and engine not started,1014,0,4,A,min,1
+Total no of DTC till date,1015,0,4,A,NA,1
+Total no of vehicle services,1016,0,1,A,NA,1
+No of hours speed is greater than 100km,1017,0,4,A,min,1
+No of hours speed is greater than 100 and lesser than 50km,1018,0,4,A,min,1
+No of times KL 15 toggles,1019,0,2,A,NA,1
+No of cranking,101A,0,2,A,NA,1
+No of low battery voltages,101B,0,2,A,NA,0
+No of unsuccessful cranking,101C,0,2,A,NA,1
+No of hours the engine temperature above 120 degree,101D,0,4,A,min,0
+No of kill switch actuation,101E,0,2,A,NA,1
+No of start switch actuation,101F,0,2,A,NA,1
+No of clutch switch actuation,1020,0,4,A,NA,1
+No of times and time for which engine was over revved,1021,2,8,A,NA,1
+Idling duration,1022,0,4,A,min,1
+RPM duration,1023,12,16,A,min,1
+No of hours the KL 15 is ON and engine not started,1014,0,4,A,min,1
+Total no of DTC till date,1015,0,4,A,NA,1
+Total no of vehicle services,1016,0,1,A,NA,1
+No of hours speed is greater than 100km,1017,0,4,A,min,1
+No of hours speed is greater than 100 and lesser than 50km,1018,0,4,A,min,1
+No of times KL 15 toggles,1019,0,2,A,NA,1
+No of cranking,101A,0,2,A,NA,1
+No of low battery voltages,101B,0,2,A,NA,1
+No of unsuccessful cranking,101C,0,2,A,NA,1
+No of hours the engine temperature above TBD degree etc,101D,0,4,A,min,1
+No of kill switch actuation,101E,0,2,A,NA,1
+No of start switch actuation,101F,0,2,A,NA,1
+No of clutch switch actuation,1020,0,4,A,NA,1
+No of times and time for which engine was over revved,1021,5,8,A,NA,1
+Idling duration,1022,0,4,A,min,1
+RPM duration,1023,5,16,A,min,1
+Read kill switch status,1024,3,1,A,NA,1
+Read ES switch status,1025,0,1,A,NA,1
+Read fan relay status,A806,3,1,A,NA,1
+Read starter relay status,A80A,0,1,A,NA,1
+Read injection time wrt deg end angle,1026,0,1,(1530/255)*A,1/Grad KW,0
+Read battery voltage during last cranking,1027,0,1,0.1 * A,V,0
+Read side stand switch status,1028,3,1,A,NA,1
+Read secondary air valve status,1029,3,1,A,NA,1
+Project code,102A,0,3,A,NA,1
+Container number(SSECUSN ),102B,12,10,ASCII,NA,2
+Gear learning status ,102D,3,1,A,NA,1
+Gear learnt delta voltage value of only neutral gear,102E,0,4,(5/1024)*A,V,1
+Current gear sensor raw voltage value,102F,0,2,(5/1024)*A,V,0
+Active diag session,1030,4,1,A,NA,1
+Test stamp ( 2 Bytes ) : This indicates status of EOL checks at each station of the EOL checks,10FF,13,2,A,NA,1
+Dealer ID,F198,12,10,A,NA,1
+Date of last Programming,F199,14,8,A,NA,1

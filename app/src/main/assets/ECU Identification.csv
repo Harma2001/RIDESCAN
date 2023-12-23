@@ -1,0 +1,5 @@
+ECU SW & calibration version,100D,12,16,A,NA,1
+ECU Hardware Version,100E,12,10,A,NA,1
+Dealer ID,F198,12,10,A,NA,1
+Date of last Programming,F199,14,8,A,NA,1
+CVN,F1F1,17,4,A,NA,1
